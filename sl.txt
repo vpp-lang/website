@@ -1,1 +1,1 @@
-https://github.com/vpp-lang/vppi/releases/download/v1.1.1.2-hf1/vppsetup_1_1_1_2_hf1.exe
+https://github.com/vpp-lang/vppi/releases/download/h1.1.1.2-hf2/vppsetup_1_1_1_2_hf2.exe
