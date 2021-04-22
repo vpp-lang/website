@@ -1,9 +1,9 @@
 {
-    "test": {
-        "name": "test",
-        "dev": "VMGP",
+    "guilib": {
+        "name": "guilib",
+        "dev": "VMGP Official",
         "ver": "0.0.1",
-        "description": "",
+        "description": "The official GUI library for V++.<br>Useful for new developers.<br><br><br><br>In order to install type 'vpppm --install guilib' in the command prompt.<br>Current version: 0.0.1",
         "github-zip-link": ""
     }
 }
