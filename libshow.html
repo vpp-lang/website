@@ -152,6 +152,7 @@
 					document.getElementById("libdesc").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">Description:<br>" + libdesc + "</font>";
 				})
 				.catch(error => {
+					console.error(error);
 					document.getElementById("libname").innerHTML = "<font face=\"Lato\" size=\"6\" color=\"#000\">-</font>";
 					document.getElementById("libdev").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">-</font>";
 					document.getElementById("libdesc").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">Failed to get library data. Please try again later.</font>";
