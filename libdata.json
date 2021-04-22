@@ -1,0 +1,9 @@
+{
+    "test": {
+        "name": "test",
+        "dev": "VMGP",
+        "ver": "0.0.1",
+        "description": "",
+        "github-zip-link": ""
+    }
+}
