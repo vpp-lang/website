@@ -1,1 +1,15 @@
-...
+Changelog:
+
+==vppi/V++ Interpreter==
+-added GUI_MouseClick
+-fixed some bugs
+-performance enhancement
+
+==vpps/V++ Settings==
+-you are now able to disable auto-updating
+
+==vpppm/V++ Package Manager==
+-new package installation
+
+==vppsetup/V++ Setup==
+- fixed a few bugs
