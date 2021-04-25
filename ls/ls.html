@@ -123,6 +123,9 @@
 	</div>
 
 	<script>
+		let libname = "TEST";
+		let libdev = "VMGP";
+		let libdesc = "Test";
 		let rawdata;
 
 		function getUrlVars() {
@@ -137,13 +140,22 @@
 
 
 		async function requestdata () {
-			fetch('https://vpp-lang.github.io/website/libdata.json')
+			fetch('libdata.json')
     			.then(response => response.json())
     			.then(data => {
 					rawdata = data
+					libname = rawdata[urlvars["ln"]]["name"];
+					libdev = rawdata[urlvars["ln"]]["dev"];
+					libdesc = rawdata[urlvars["ln"]]["desc"];
+					document.getElementById("libname").innerHTML = "<font face=\"Lato\" size=\"6\" color=\"#000\">" + libname + "</font>";
+					document.getElementById("libdev").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">by " + libdev + "</font>";
+					document.getElementById("libdesc").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">Description:<br>" + libdesc + "</font>";
 				})
 				.catch(error => {
 					console.error(error);
+					document.getElementById("libname").innerHTML = "<font face=\"Lato\" size=\"6\" color=\"#000\">-</font>";
+					document.getElementById("libdev").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">-</font>";
+					document.getElementById("libdesc").innerHTML = "<font face=\"Lato\" size=\"3\" color=\"#000\">Failed to get library data. Please try again later.</font>";
 				});
 			
 		}
@@ -160,8 +172,6 @@
 			document.getElementById("pcbr").innerHTML = "";
 			document.getElementById("pcbr2").innerHTML = "";
 		}
-
-		
 	</script>
 </body>
 </html>
