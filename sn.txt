@@ -1,1 +1,3 @@
-Just a small hotfix.
+=CHANGELOG=
+==vpps/V++ Settings==
+- a notification will appear when an update is available, instead of a message box
