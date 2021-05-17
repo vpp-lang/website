@@ -1,11 +1,3 @@
 ==vppi/V++ Interpreter==
-- the V++ interpreter now requires 2 DLLs in order to run
 - optimizations
 - bug fixes
-- better stability
-
-==vpps/V++ Settings==
-- feedback section in general settings
-
-==vppsetup/V++ Setup==
-- now files are extracted from a zip file
