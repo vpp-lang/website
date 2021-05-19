@@ -1,3 +1,2 @@
-==vppi/V++ Interpreter==
-- optimizations
-- bug fixes
+==vpps/V++ Settings==
+- bugfixes
