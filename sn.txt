@@ -1,6 +1,2 @@
 ==vppi/V++ Interpreter==
--scripts are now able to delete files and folders
--scripts are now able to rename files and folders
--scripts are now able to create folders
--bugfixes
--optimizations
+- new commands
