@@ -1,2 +1,18 @@
-==vppi/V++ Interpreter==
-- new commands
+# V++ 1.1.1.7
+## ADDED/CHANGED
+- VPPI_0_0001: Added "list" type.
+- VPPI_0_0002: Added "vpplistop" instruction.
+- VPPI_1_0003: Added "varop" command 0x0004 command for splitting strings.
+- VPPI_1_0004: Added "sin" sub-instruction for "vppmath".
+- VPPI_1_0005: Added "cos" sub-instruction for "vppmath".
+- VPPI_1_0006: Added "tan" sub-instruction for "vppmath".
+- VPPI_1_0007: Added "floor" sub-instruction for "vppmath".
+- VPPI_1_0008: Added "abs" sub-instruction for "vppmath".
+- VPPI_1_0009: Added "sqrt" sub-instruction for "vppmath".
+- VPPI_1_0010: Added "pow" sub-instruction for "vppmath".
+- VPPI_1_0010: Added "setexecspeed" instruction.
+
+## DEPRECATED/REMOVED
+- VPPS_2_0005: Removed non-functional feedback button.
+
+## PATCHED
