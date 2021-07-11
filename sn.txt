@@ -1,10 +1,8 @@
-# V++ 1.1.1.7-hf1
+# V++ 1.1.1.8
 ## ADDED/CHANGED
-- VPPI_0_0005: Added new event.
+- VPPI: Added HTTP server.
 
 ## DEPRECATED/REMOVED
 
 ## PATCHED
-- VPPS_2_0012: Fixed the changelog link.
-- VPPSETUP_2_0013: Fixed the Path not found bug.
-- VPPI_2_0014: Fixed some stuff with the HTTPRequest class.
+- VPPSETUP: Fixed the Path not found bug.
