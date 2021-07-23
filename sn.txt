@@ -1,8 +1,7 @@
-# V++ 1.1.1.8
+# V++ 1.1.1.9
 ## ADDED/CHANGED
-- VPPI: Added HTTP server.
+- VPPI: Changed Encoding issues with HTTP Server
 
 ## DEPRECATED/REMOVED
 
 ## PATCHED
-- VPPSETUP: Fixed the Path not found bug.

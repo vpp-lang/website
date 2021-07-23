@@ -1,1 +1,1 @@
-https://github.com/vpp-lang/vpp-source/releases/download/v1.1.1.8/vppsetup_1_1_1_8.exe
+https://github.com/vpp-lang/vpp-source/releases/download/v1.1.1.9/vppsetup_1_1_1_9.exe
