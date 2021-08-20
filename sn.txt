@@ -1,6 +1,6 @@
 # V++ 1.1.1.9
 ## ADDED/CHANGED
-- VPPI: Changed Encoding issues with HTTP Server
+- VPPI: Enhanced performance.
 
 ## DEPRECATED/REMOVED
 
