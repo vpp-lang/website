@@ -1,6 +1,6 @@
-# V++ 1.1.1.9
+# V++ 1.1.1.9b
 ## ADDED/CHANGED
-- VPPI: Enhanced performance.
+- VPPI: Added "atan" and "atan2" to vppmath.
 
 ## DEPRECATED/REMOVED
 
