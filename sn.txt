@@ -1,7 +1,1 @@
-# V++ 1.1.1.9b
-## ADDED/CHANGED
-- VPPI: Added "atan" and "atan2" to vppmath.
-
-## DEPRECATED/REMOVED
-
-## PATCHED
+For the changelog, please look on the V++ github releases page, at this version's details.
