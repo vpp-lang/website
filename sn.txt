@@ -1,1 +1,2 @@
-For the changelog, please look on the V++ github releases page, at this version's details.
+Changelog on Github.
+RIP V++ (2017-2022)
